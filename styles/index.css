@@ -1,0 +1,40 @@
+.subtitulo{
+    margin: 15px;
+    padding: 0;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image{
+float: right;
+margin: 0 0 20px 20px;
+max-width: 25%;
+height: auto;
+
+}
+
+.image2{
+
+    float: left;
+    margin: 20px 20px 20px 20px;
+    max-width: 25%;
+    height: auto;
+}
+.image3{
+
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 25%;
+    height: auto;
+}
+
+.parrafo2{
+margin-top: 85px;
+}
+p{
+    font-size: 20px;
+}

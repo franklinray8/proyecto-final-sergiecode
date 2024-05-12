@@ -1,0 +1,46 @@
+
+.contenedor-formulario {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+
+}
+
+input[type="text"],
+input[type="mail"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: rgb(231, 200, 97);
+    color: black;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+
+    background-color: green;
+}
+
+textarea:focus,input:focus{
+    background-color: rgb(146, 207, 235);
+}
